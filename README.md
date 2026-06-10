@@ -1,16 +1,105 @@
-# React + Vite
+# 🚀 Aman Goswami — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive personal portfolio built with **React.js + Vite + CSS3**, showcasing my skills, projects, and experience in Software Development, AI, and Data Analytics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔥 Live Demo
+Coming soon (after deployment)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the ESLint configuration
+Hi, I'm **Aman Goswami**, a Computer Science Engineering student specializing in **AI & Data Science**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I enjoy building:
+- Full-stack web applications
+- AI/ML-based systems
+- Data-driven projects
+
+My focus is on becoming a strong Software Engineer with expertise in scalable systems and intelligent applications.
+
+---
+
+## 🧠 Tech Stack
+
+- **Frontend:** React.js, HTML5, CSS3, Vite  
+- **Programming:** Java, Python, C, JavaScript  
+- **AI/ML:** Scikit-learn, Pandas, NumPy, SMOTE  
+- **Database:** SQL, MongoDB  
+- **Tools:** GitHub, VS Code, Tableau, Excel  
+
+---
+
+## 📌 Featured Projects
+
+### 🤖 AI Code Reviewer
+AI-powered tool that analyzes code and provides intelligent feedback, bug detection, and optimization suggestions.  
+🔗 https://github.com/CrimsonCode-X/AI-Code-Reviewer
+
+---
+
+### 💳 Credit Card Fraud Detection
+Machine learning model handling imbalanced datasets using SMOTE for accurate fraud detection.  
+🔗 https://github.com/CrimsonCode-X/credit-card-fraud-detection
+
+---
+
+### 📊 Zomato Data Analysis
+Exploratory Data Analysis project to extract insights from restaurant datasets.  
+🔗 https://github.com/CrimsonCode-X/Zomato-Data-Analysis
+
+---
+
+### 🌦 Weather App
+React-based weather app using OpenWeather API with real-time updates and error handling.  
+🔗 https://github.com/CrimsonCode-X/Weather-App
+
+---
+
+### 📚 Library Management System
+Python-based console application with file handling and modular design.  
+🔗 https://github.com/CrimsonCode-X/LIBRARY-MANAGEMENT-SYSTEM
+
+---
+
+## 🏆 Certifications & Achievements
+
+- Siemens Mobility – Project Management Simulation  
+- Goldman Sachs – Risk Job Simulation  
+- Deloitte Australia – Data Analytics Simulation  
+- J.P. Morgan – Quantitative Research Simulation  
+- HP LIFE – Data Science & Analytics Certification  
+- HackerRank – SQL, Python, Java Certifications  
+- NPTEL – Environmental Engineering Certification  
+- IBM SkillsBuild – Generative AI in Data Analytics  
+- 6th Rank – Vision-X Hackathon (GLA University)
+
+---
+
+## 📬 Contact Me
+
+- Email: aman.goswami_cs24@gla.ac.in  
+- Alternate Email: goswamiaman1112@gmail.com  
+- Phone: +91 8868861056  
+- Location: Mathura, India  
+- GitHub: https://github.com/CrimsonCode-X  
+- LinkedIn: https://www.linkedin.com/in/aman-goswami-92a599338/
+
+---
+
+## ⚡ Goals
+
+- Become a strong Full Stack + AI Engineer  
+- Build scalable real-world systems  
+- Land top-tier software internships  
+- Move toward global tech opportunities  
+
+---
+
+## ⭐ Note
+
+This portfolio is continuously evolving as I learn and build more advanced systems.
+
+---
