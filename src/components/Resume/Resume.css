@@ -1,0 +1,67 @@
+.resume-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px;
+  margin-top: 30px;
+
+  border-radius: 16px;
+}
+
+.resume-text h3 {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+}
+
+.resume-text p {
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.resume-desc {
+  max-width: 500px;
+  font-size: 0.95rem;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.resume-btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+
+  background: var(--accent);
+  color: white;
+
+  font-size: 0.9rem;
+
+  transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--glow-soft);
+}
+
+.resume-btn.secondary {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .resume-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .resume-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
