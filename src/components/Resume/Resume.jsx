@@ -23,7 +23,7 @@ function Resume() {
 
           <div className="resume-actions">
             <a
-              href="/resume.pdf"
+              href="/Untitled design.pdf"
               target="_blank"
               rel="noreferrer"
               className="resume-btn"
@@ -32,7 +32,7 @@ function Resume() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/Untitled design.pdf"
               download
               className="resume-btn secondary"
             >
