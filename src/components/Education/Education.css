@@ -1,0 +1,142 @@
+.education-timeline {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  padding-left: 3rem; /* space for timeline line */
+}
+
+/* =========================
+   VERTICAL LINE (SPINE)
+========================= */
+
+.education-timeline::before {
+  content: "";
+
+  position: absolute;
+
+  left: 12px;
+  top: 0;
+  bottom: 0;
+
+  width: 2px;
+
+  background: linear-gradient(
+    to bottom,
+    #38bdf8,
+    #6366f1
+  );
+
+  opacity: 0.6;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.education-card {
+  position: relative;
+
+  background: rgba(255, 255, 255, 0.04);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 16px;
+
+  padding: 2rem;
+
+  backdrop-filter: blur(12px);
+
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
+
+/* =========================
+   ARROW NODE (IMPORTANT PART)
+========================= */
+
+.education-card::before {
+  content: "";
+
+  position: absolute;
+
+  left: -42px;
+  top: 28px;
+
+  width: 14px;
+  height: 14px;
+
+  background: #38bdf8;
+
+  border-radius: 50%;
+
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+}
+
+/* arrow pointer */
+.education-card::after {
+  content: "";
+
+  position: absolute;
+
+  left: -28px;
+  top: 30px;
+
+  width: 0;
+  height: 0;
+
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid rgba(56, 189, 248, 0.6);
+}
+
+/* =========================
+   TEXT STYLING
+========================= */
+
+.education-card h3 {
+  color: #38bdf8;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.education-card h4 {
+  color: #e5e7eb;
+  margin-bottom: 0.3rem;
+}
+
+.period {
+  color: #a1a1aa;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.note {
+  color: #cbd5e1;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* =========================
+   MOBILE FIX
+========================= */
+
+@media (max-width: 768px) {
+  .education-timeline {
+    padding-left: 2rem;
+  }
+
+  .education-card::before {
+    left: -30px;
+  }
+
+  .education-card::after {
+    display: none; /* cleaner mobile UI */
+  }
+}

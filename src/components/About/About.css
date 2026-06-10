@@ -1,0 +1,31 @@
+.about-card {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 2.5rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1.5rem;
+}
+
+.about-card p {
+  color: var(--text-secondary);
+
+  font-size: 1.05rem;
+
+  line-height: 1.9;
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    padding: 1.5rem;
+  }
+
+  .about-card p {
+    font-size: 1rem;
+  }
+}

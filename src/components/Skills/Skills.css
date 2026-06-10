@@ -1,0 +1,104 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+/* =========================
+   SKILL CARD (LARGER + PREMIUM)
+========================= */
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.04);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 20px;
+
+  padding: 3rem 2rem; /* 🔥 increased size */
+
+  text-align: center;
+
+  transition: all 0.35s ease;
+
+  backdrop-filter: blur(12px);
+
+  min-height: 280px; /* 🔥 makes cards taller */
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
+}
+
+/* =========================
+   ICON (LARGER + STRONGER VISUAL)
+========================= */
+
+.skill-icon {
+  color: #38bdf8;
+
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: scale(1.4); /* 🔥 bigger icon */
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.skill-card h3 {
+  margin-bottom: 1.2rem;
+
+  font-size: 1.4rem; /* 🔥 bigger heading */
+
+  color: #e5e7eb;
+}
+
+/* =========================
+   SKILL TAGS
+========================= */
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.skill-list span {
+  font-size: 0.9rem; /* 🔥 bigger text */
+
+  padding: 7px 12px;
+
+  border-radius: 10px;
+
+  background: rgba(56, 189, 248, 0.12);
+
+  border: 1px solid rgba(56, 189, 248, 0.25);
+
+  color: #cbd5e1;
+}
+
+/* =========================
+   RESPONSIVE FIX
+========================= */
+
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    padding: 2.5rem;
+    min-height: auto;
+  }
+
+  .skill-icon {
+    transform: scale(1.2);
+  }
+}

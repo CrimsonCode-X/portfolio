@@ -1,0 +1,242 @@
+/* =========================
+   HERO LAYOUT (SCALED UP)
+========================= */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 95vh;
+
+  padding: 0 6%;
+
+  gap: 3rem;
+
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* =========================
+   LEFT SIDE (BIGGER TEXT IMPACT)
+========================= */
+
+.hero-left {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 0.8rem;
+}
+
+.hero-left h1 {
+  font-size: 3.6rem; /* increased */
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.hero-left h1 span {
+  color: #38bdf8;
+}
+
+.hero-left p {
+  margin-top: 0.5rem;
+  color: #a1a1aa;
+  font-size: 1.35rem; /* increased */
+  line-height: 1.6;
+}
+
+/* =========================
+   BUTTONS (SCALED SLIGHTLY)
+========================= */
+
+.hero-buttons {
+  margin-top: 2.2rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background: #38bdf8;
+  color: #0b1220;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+}
+
+.btn-secondary {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.btn-secondary:hover {
+  background: rgba(56, 189, 248, 0.1);
+  transform: translateY(-3px);
+}
+
+/* =========================
+   RIGHT SIDE (BIGGER CODE EDITOR)
+========================= */
+
+.hero-right {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CODE EDITOR */
+.code-editor {
+  width: 100%;
+  max-width: 520px; /* increased */
+
+  border-radius: 14px;
+
+  background: rgba(20, 24, 35, 0.88);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow: 0 0 40px rgba(56, 189, 248, 0.2);
+
+  overflow: hidden;
+
+  transition: all 0.3s ease;
+
+  animation: floatCode 4s ease-in-out infinite;
+}
+
+.code-editor:hover {
+  transform: scale(1.06) translateY(-6px);
+  box-shadow: 0 0 60px rgba(56, 189, 248, 0.35);
+}
+
+/* TOP BAR */
+.editor-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 12px 16px;
+
+  background: rgba(0, 0, 0, 0.45);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.editor-top p {
+  color: #a1a1aa;
+  font-size: 0.9rem;
+}
+
+/* DOTS */
+.dots {
+  display: flex;
+  gap: 6px;
+}
+
+.dots span {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.red {
+  background: #ff5f56;
+}
+
+.yellow {
+  background: #ffbd2e;
+}
+
+.green {
+  background: #27c93f;
+}
+
+/* CODE */
+.code-content {
+  padding: 1.2rem;
+
+  font-size: 0.9rem;
+
+  line-height: 1.7;
+
+  color: #cbd5e1;
+
+  white-space: pre-wrap;
+}
+
+/* =========================
+   FLOAT ANIMATION
+========================= */
+
+@keyframes floatCode {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.8rem;
+  }
+
+  .hero-right {
+    justify-content: center;
+  }
+
+  .code-editor {
+    max-width: 100%;
+  }
+
+  .hero-left h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-left p {
+    font-size: 1.1rem;
+  }
+}
+
+/* =========================
+   WRAPPER FIX (CENTERING + BALANCE)
+========================= */
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-editor-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

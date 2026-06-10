@@ -1,0 +1,35 @@
+:root {
+  /* Background System */
+  --bg-primary: #0b1220;
+  --bg-secondary: #0f172a;
+  --bg-card: rgba(255, 255, 255, 0.04);
+
+  /* Text System */
+  --text-primary: #f8fafc;
+  --text-secondary: #a3b1c6;
+
+  /* Accent (Frost Blue System) */
+  --accent-primary: #60a5fa;
+  --accent-secondary: #38bdf8;
+
+  /* Neutral Border */
+  --border-color: rgba(255, 255, 255, 0.08);
+
+  /* Glow System (subtle, professional) */
+  --glow-soft: 0 0 18px rgba(96, 165, 250, 0.15);
+  --glow-medium: 0 0 28px rgba(56, 189, 248, 0.18);
+
+  /* Shadow */
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.35);
+
+  /* Radius */
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+
+  /* Layout */
+  --max-width: 1200px;
+
+  /* Motion */
+  --transition: all 0.25s ease;
+}
