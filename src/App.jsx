@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Sun, Moon } from "lucide-react";
+import { Analytics } from "@vercel/analytics/next"
 
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
